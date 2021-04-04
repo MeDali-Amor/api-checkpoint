@@ -1,0 +1,38 @@
+* {
+    margin-right: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+.user-card {
+    background: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    border: solid 3px #24252a;
+    width: 25%;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.45);
+}
+.id {
+    color: #0088a9;
+    /* border: 2px solid blue; */
+    border-radius: 50%;
+}
+
+.profile-btn {
+    margin-top: 0.5rem;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 400ms ease 0s;
+}
+.profile-btn:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+.id,
+.user-name,
+.profile-btn {
+    padding: 0.5rem;
+}
