@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-const Navbar = () => {
+const Navbar = ({ login, setLogin }) => {
     return (
         <div className="navbar">
             <div>
@@ -11,17 +11,19 @@ const Navbar = () => {
             </div>
             <ul className="nav-links">
                 <li>
-                    <Link className="link" to="/">
+                    <Link className="links" to="/">
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link className="link" to="/users">
+                    <Link className="links" to="/users">
                         Users
                     </Link>
                 </li>
             </ul>
-            <button className="login-btn">Login</button>
+            <button className="login-btn" onClick={() => setLogin(!login)}>
+                {login ? "Logout" : "Login"}
+            </button>
         </div>
     );
 };

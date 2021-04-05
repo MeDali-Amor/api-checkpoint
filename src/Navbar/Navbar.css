@@ -33,10 +33,10 @@ ul {
     display: inline-block;
     padding: 0 20px;
 }
-.link {
+.links {
     transition: all 400ms ease 0s;
 }
-.link:hover {
+.links:hover {
     color: #0088a9;
 }
 .login-btn {
@@ -46,6 +46,7 @@ ul {
     border-radius: 50px;
     cursor: pointer;
     transition: all 400ms ease 0s;
+    outline: none;
 }
 .login-btn:hover {
     background-color: rgba(0, 136, 169, 0.8);

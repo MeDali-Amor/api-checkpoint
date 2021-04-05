@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.home-page {
+    width: 100vw;
+    height: 86.58vh;
+    position: relative;
+    background-image: url("./backgoun-home.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.home-page h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    color: blanchedalmond;
+}
+.home-page p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 500px;
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    color: #333;
+    /* padding: 15rem 15rem; */
+}
+
+.home-page h2 {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    font-size: 2rem;
+    font-weight: 500;
+}
